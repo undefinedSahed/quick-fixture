@@ -106,7 +106,7 @@ export default function NewTournamentPage() {
                   <motion.button
                     key={opt.value}
                     type="button"
-                    className={`team-option ${teamCount === opt.value ? 'selected' : ''}`}
+                    className={`team-option hover-lift ${teamCount === opt.value ? 'selected' : ''}`}
                     onClick={() => setTeamCount(opt.value)}
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
